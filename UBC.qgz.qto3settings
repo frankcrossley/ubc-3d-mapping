@@ -1,0 +1,118 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "Clipping_3cbe6872_b929_4604_b1ee_e9f897df7e68": {
+        "enabled": true,
+        "groups": []
+      },
+      "building_1_a78d2ec8_bab0_430b_bbe0_9ec26031e715": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:0a7b37e0": {
+        "enabled": true,
+        "groups": []
+      },
+      "trees_1_db43b6f6_6f1f_4360_a434_e4fce1924abd": {
+        "enabled": true,
+        "groups": []
+      },
+      "vancouver_area_dem_c4ccc5c4_f186_400a_b3c7_c1ee57389a8f": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "startOnLoad": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "building_1_a78d2ec8_bab0_430b_bbe0_9ec26031e715",
+      "name": "building_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "trees_1_db43b6f6_6f1f_4360_a434_e4fce1924abd",
+      "name": "trees_1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Clipping_3cbe6872_b929_4604_b1ee_e9f897df7e68",
+      "name": "Clipping",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "vancouver_area_dem_c4ccc5c4_f186_400a_b3c7_c1ee57389a8f",
+      "name": "vancouver-area-dem",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": true,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "ubcv_building_records_a658f245_eb7d_4fa5_aacb_e6662ca06c3e",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "1bc75f85",
+            "name": "empty map",
+            "properties": {
+              "layerIds": []
+            },
+            "type": 1
+          }
+        ],
+        "mtlId": "1bc75f85",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:0a7b37e0",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true
+  },
+  "OutputFilename": "C:/Users/frank/OneDrive/Documents/UBC/Year 4/GEOB 472/Assignments/QGIS_Tutorial\\index.html",
+  "Template": "3DViewer(dat-gui).html",
+  "Title": "UBC",
+  "Version": 20700
+}
